@@ -1,0 +1,111 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 65vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+}
+
+.current-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 32.5vw;
+}
+
+.select-wrapper {
+    height: 60vh;
+    width: 32.5vw;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-top: 5%; */
+    margin-top: 4rem;
+}
+
+.city-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.city-input:focus {
+    border-bottom: 1px solid #FFF;
+}
+
+.btn {
+    margin: 10px;
+    background: transparent;
+    border: 2px solid blueviolet;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
+
+.info {
+    color: #FFF;
+    margin-top: 3rem;
+}
+
+.info table {
+    width: 100%;
+}
+
+.info table tr {
+    position: relative;
+    bottom: -10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 25px;
+    border-bottom: 1px solid #fff;
+}
+
+.name {
+    color: #FFF;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.date-time {
+    color: #FFF;
+}
+
+.curr-foot {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+}
+
+.temp h1 {
+    margin-right: .5rem;
+}
+
+.wht {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
